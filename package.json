@@ -4,6 +4,7 @@
   "author": "Cary Haynie <cary.haynie@gmail.com>",
   "version" : "0.0.1",
   "license": "MIT",
+  "main": "index.js",
   "scripts":
   {
     "test": "./node_modules/mocha/bin/mocha -R spec"
