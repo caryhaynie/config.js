@@ -5,6 +5,11 @@
   "version" : "0.0.1",
   "license": "MIT",
   "main": "index.js",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/caryhaynie/config.js.git"
+  },
   "scripts":
   {
     "test": "./node_modules/mocha/bin/mocha -R spec"
@@ -17,5 +22,9 @@
   {
     "expect.js": "0.1.x",
     "mocha": "1.x"
+  },
+  "engine":
+  {
+    "node": ">=0.6"
   }
 }
