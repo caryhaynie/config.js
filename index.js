@@ -9,7 +9,7 @@ exports.getConfig = function() {
     var key = __stack[1].getFileName();
     if (cfgCache[key] == undefined) {
         var cfgPath = key + ".config";
-        if (path.existsSync(cfgPath)) {
+        if (fs.existsSync(cfgPath)) {
             try {
                 var buf = fs.readFileSync(cfgPath, "ascii");
                 cfgCache[key] = JSON.parse(buf);
