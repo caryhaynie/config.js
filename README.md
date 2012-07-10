@@ -1,15 +1,20 @@
 # config.js -- node.js configuration for busy people
 
-## install
+## install ( via git and npm linking )
 
 `$ git clone https://github.com/caryhaynie/config.js.git`
 
 `$ cd config.js; sudo npm link`
 
-## usage
-
 `$ npm link config.js`
 
+## install ( via npm )
+
+`$ npm install config.js`
+
+## usage
+
+`var config = require("config.js").getConfig()`
 
 ## info
 config.js is a simple library that allows node.js developers to store

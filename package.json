@@ -2,7 +2,7 @@
   "name": "config.js",
   "description": "simple library for retrieving per-file configuration data",
   "author": "Cary Haynie <cary.haynie@gmail.com>",
-  "version" : "0.0.1",
+  "version" : "0.1.0",
   "license": "MIT",
   "main": "index.js",
   "repository":
@@ -25,6 +25,6 @@
   },
   "engine":
   {
-    "node": ">=0.6"
+    "node": ">=0.8"
   }
 }
