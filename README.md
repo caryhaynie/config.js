@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/caryhaynie/config.js.png)](http://travis-ci.org/caryhaynie/config.js)
 # config.js -- node.js configuration for busy people
 
 ## install ( via git and npm linking )
